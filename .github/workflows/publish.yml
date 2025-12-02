@@ -28,5 +28,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:php83-v1
+            ghcr.io/${{ github.repository_owner }}/laravel-base:latest
+            ghcr.io/${{ github.repository_owner }}/laravel-base:php83-v1
